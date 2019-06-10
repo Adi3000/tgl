@@ -150,6 +150,7 @@ messageActionChatJoinedByLink#f89cf5e8 inviter_id:int = MessageAction;
 messageActionChannelCreate#95d2ac92 title:string = MessageAction;
 messageActionChatMigrateTo#51bdb021 channel_id:int = MessageAction;
 messageActionChannelMigrateFrom#b055eaee title:string chat_id:int = MessageAction;
+messageActionUnknown1#94bd38ed = MessageAction;
 
 dialog#c1dd804a peer:Peer top_message:int read_inbox_max_id:int unread_count:int notify_settings:PeerNotifySettings = Dialog;
 dialogChannel#5b8496b2 peer:Peer top_message:int top_important_message:int read_inbox_max_id:int unread_count:int unread_important_count:int notify_settings:PeerNotifySettings pts:int = Dialog;
