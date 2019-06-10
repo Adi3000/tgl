@@ -1108,7 +1108,9 @@ void tglf_fetch_message_action (struct tgl_state *TLS, struct tgl_message_action
     M->type = tgl_message_action_migrated_from;
     M->title = DS_STR_DUP (DS_MA->title);
     break;
-  default:
+  case CODE_message_action_unknown1:
+    M->type = tgl_message_action_none;
+    break;  default:
     assert (0);
   }
 }
